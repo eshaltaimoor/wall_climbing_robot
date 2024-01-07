@@ -35,24 +35,30 @@ void setup() {
   servo4.attach(servopin4);
   servo5.attach(servopin5);
 // Makes all servos to 90 Degree (Straight)
-  servo1.write(angle);
-  servo2.write(angle);
-  servo3.write(angle);
-  servo4.write(angle);
-  servo5.write(angle);
-  delay(2000);
+  //servo1.write(angle);
+  //servo2.write(angle);
+  //servo3.write(angle);
+  //servo4.write(angle);
+  //servo5.write(angle);
+  //delay(2000);
   
-  servo4.write(190);
+  servo2.write(180);
   delay(3000);
-  servo1.write(0);
-  delay(3000);
-  servo2.write(18);
-  delay(3000);
-  servo3.write(160);
-  delay(3000);
-  servo5.write(150);
-  delay(3000);
-  servo3.write(90);
+  servo1.write(50);
+  delay(2000);
+  servo1.write(150);
+  delay(2000);
+  servo1.write(50);
+  delay(2000);
+  servo1.write(150);
+  delay(2000);
+  servo1.write(50);
+  delay(2000);
+  servo1.write(150);
+  delay(2000);
+  servo1.write(50);
+  delay(2000);
+  servo1.write(150);
 }
 void loop()
 {
