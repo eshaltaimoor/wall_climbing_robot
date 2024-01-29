@@ -1,3 +1,12 @@
+"""
+Code Name: WallClimbingRobotJoy.py
+Description: This code is the main code, it is for controlling
+the Fan and the DC Motors. If you press a certain botton on the
+bluetooth gaming controller, it either moves the robot forward
+and starts the fan or only starts the fan or stops the robot.
+Author: Eshal Taimoor
+Date: 11/06/2023
+"""
 import time
 import RPi.GPIO as GPIO
 import pygame
