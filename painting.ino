@@ -43,7 +43,8 @@ void setup() {
   //delay(2000);
 /************************************
 This next part of the code moves the
-robotic arm left and right to paint.
+robotic arm down then turns left and
+right a total of 8 times.
 *************************************/  
   servo2.write(180);
   delay(3000);
@@ -65,5 +66,5 @@ robotic arm left and right to paint.
 }
 void loop()
 {
-
+//
 }
