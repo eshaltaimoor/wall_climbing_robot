@@ -1,6 +1,8 @@
 /***********************************************************
 File name: painting.ino
-Description:
+Description: This code first makes all the servos 90 degrees
+(straight). Then it makes the robotic arm move left and 
+right to paint.
 Author: Eshal Taimoor
 Date: 01/07/2024
 ***********************************************************/
@@ -39,7 +41,10 @@ void setup() {
   //servo4.write(angle);
   //servo5.write(angle);
   //delay(2000);
-  
+/************************************
+This next part of the code moves the
+robotic arm left and right to paint.
+*************************************/  
   servo2.write(180);
   delay(3000);
   servo1.write(50);
