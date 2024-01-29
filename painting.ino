@@ -1,7 +1,7 @@
 /***********************************************************
 File name: painting.ino
 Description: This code first makes all the servos 90 degrees
-(straight). Then it makes the robotic arm move left and 
+(straight). Then it makes the robotic arm move down and turn left and 
 right to paint.
 Author: Eshal Taimoor
 Date: 01/07/2024
