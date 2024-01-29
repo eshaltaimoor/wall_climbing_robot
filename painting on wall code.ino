@@ -66,5 +66,5 @@ to start painting.
 }
 void loop()
 {
-
+//There is no Code defined in loop to avoid repetition.
 }
