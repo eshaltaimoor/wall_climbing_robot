@@ -54,17 +54,17 @@ while True:
     events = pygame.event.get()
     for event in events:
         if event.type == pygame.JOYBUTTONDOWN:
-            if pygame.joystick.Joystick(0).get_button(3):
+            if pygame.joystick.Joystick(0).get_button(3): # This one is to start the fan.
                  power_3.ChangeDutyCycle(20)
                  print("Fan Started")
-            elif pygame.joystick.Joystick(0).get_button(0):
+            elif pygame.joystick.Joystick(0).get_button(0): # This one is to stop the robot.
                  GPIO.output(in1,GPIO.LOW)
                  GPIO.output(in2,GPIO.LOW)
                  GPIO.output(in3,GPIO.LOW)
                  GPIO.output(in4,GPIO.LOW)
                  power_3.ChangeDutyCycle(0)
                  print("Robot Stopped")
-            elif pygame.joystick.Joystick(0).get_button(1):
+            elif pygame.joystick.Joystick(0).get_button(1): # This one is to move the robot forward and to start the fan.
                  power_3.ChangeDutyCycle(20)
                  time.sleep(2)
                  GPIO.output(in1,GPIO.HIGH)
