@@ -1,10 +1,8 @@
 /***********************************************************
-File name: AdeeptArmInitializationCode.ino
-Description: Power on, the servo rotates 90 to straighten the robotic arm
-Website: www.adeept.com
-E-mail: support@adeept.com
-Author: Tom
-Date: 2019/04/26
+File name: painting.ino
+Description:
+Author: Eshal Taimoor
+Date: 01/07/2024
 ***********************************************************/
 #include <Servo.h>。
 int servopin1 = 9;    //Define servo interface digital interface 9
