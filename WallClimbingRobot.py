@@ -1,9 +1,13 @@
-"""""""""""""""""""""""""""
-Code Name:
-Description:
-Author:
-
-"""""""""""""""""""""""""""
+"""
+Code Name: WallClimbingRobot.py
+Description: In this code I was testing the Motor
+Drivers. If a certain letterwas pressed on the keyboard,
+for example if you pressed 'f' the motors would go
+forward. If you pressed 'b' it would go backward, for
+'r' it would go fast, and for 't' it would go slow. 
+Author: Eshal Taimoor
+Date: 11/05/2023
+"""
 import time
 import RPi.GPIO as GPIO
 GPIO.setwarnings(False)
