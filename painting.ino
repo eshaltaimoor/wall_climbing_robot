@@ -66,5 +66,5 @@ right a total of 8 times.
 }
 void loop()
 {
-//
+// There is no Code defined in loop to avoid repetition.
 }
