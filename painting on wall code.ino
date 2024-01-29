@@ -1,10 +1,10 @@
 /***********************************************************
-File name: AdeeptArmInitializationCode.ino
-Description: Power on, the servo rotates 90 to straighten the robotic arm
-Website: www.adeept.com
-E-mail: support@adeept.com
-Author: Tom
-Date: 2019/04/26
+File name: painting on wall code.ino
+Description: This code first makes all the servos 90 degrees
+(straight). Then it makes the robotic arm move a little down
+and start moving left and right to paint.
+Author: Eshal Taimoor
+Date: 01/15/2024
 ***********************************************************/
 #include <Servo.h>。
 int servopin1 = 9;    //Define servo interface digital interface 9
@@ -41,7 +41,11 @@ void setup() {
   //servo4.write(angle);
   //servo5.write(angle);
   //delay(2000);
-  
+/********************************************
+This next part of the code makes the robotic
+arm move a little down then move left and right
+to start painting. 
+*********************************************/
   servo2.write(180);
   delay(3000);
   servo1.write(50);
