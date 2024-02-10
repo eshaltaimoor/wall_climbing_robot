@@ -1,10 +1,10 @@
 """
 Code Name: WallClimbingRobot.py
-Description: In this code I was testing the Motor
-Drivers. If a certain letterwas pressed on the keyboard,
-for example if you pressed 'f' the motors would go
-forward. If you pressed 'b' it would go backward, for
-'r' it would go fast, and for 't' it would go slow. 
+Description: In this code, I was testing the Motor
+Drivers. If a certain letter was pressed on the keyboard,
+for example, if you pressed 'f' the motors would go
+forward. If you press 'b' it will go backward, for
+'r' it will go fast, and for 't' it will go slow. 
 Author: Eshal Taimoor
 Date: 11/05/2023
 """
